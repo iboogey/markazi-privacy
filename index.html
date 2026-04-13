@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – سياسة الخصوصية | مركزي Markazi</title>
+  <style>
+    :root {
+      --green: #1B584F;
+      --orange: #F47B20;
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    header {
+      background: var(--green);
+      color: white;
+      padding: 32px 24px;
+      text-align: center;
+    }
+
+    header h1 { font-size: 1.8rem; font-weight: 700; }
+    header p { margin-top: 6px; opacity: 0.85; font-size: 0.95rem; }
+
+    .lang-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      background: var(--green);
+      padding: 0 24px 20px;
+    }
+
+    .lang-tabs button {
+      padding: 8px 24px;
+      border: 2px solid white;
+      border-radius: 999px;
+      background: transparent;
+      color: white;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .lang-tabs button.active {
+      background: white;
+      color: var(--green);
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 780px;
+      margin: 40px auto;
+      padding: 0 20px 60px;
+    }
+
+    .policy-block { display: none; }
+    .policy-block.active { display: block; }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+    }
+
+    .updated {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      font-size: 1rem;
+      color: var(--muted);
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--green);
+      margin-top: 28px;
+      margin-bottom: 10px;
+    }
+
+    p { font-size: 0.95rem; margin-bottom: 12px; }
+
+    ul {
+      padding-inline-start: 24px;
+      margin-bottom: 12px;
+    }
+
+    ul li {
+      font-size: 0.95rem;
+      margin-bottom: 6px;
+    }
+
+    .contact-box {
+      margin-top: 28px;
+      background: #f0faf8;
+      border: 1px solid #b2d8d3;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-size: 0.95rem;
+    }
+
+    .contact-box a {
+      color: var(--green);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+
+    /* English overrides */
+    .policy-block[data-lang="en"] {
+      direction: ltr;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>مركزي · Markazi</h1>
+  <p>Privacy Policy · سياسة الخصوصية</p>
+</header>
+
+<div class="lang-tabs">
+  <button class="active" onclick="switchLang('ar')">عربي</button>
+  <button onclick="switchLang('en')">English</button>
+</div>
+
+<main>
+
+  <!-- Arabic -->
+  <div class="policy-block active card" data-lang="ar">
+    <p class="updated">آخر تحديث: أبريل 2025</p>
+    <p class="intro">
+      يُشغِّل تطبيق <strong>مركزي</strong> خدمةً لإدارة مراكز تحفيظ القرآن الكريم والمدارس الإسلامية والمساجد.
+      توضح هذه السياسة كيفية جمع المعلومات واستخدامها وحمايتها.
+    </p>
+
+    <h2>١. المستخدمون المستهدفون</h2>
+    <p>
+      مركزي هو تطبيق إداري (B2B) مخصص للمديرين والمعلمين والمساعدين في المؤسسات التعليمية.
+      لا يُخصَّص للاستخدام المباشر من قِبل الطلاب أو القاصرين.
+    </p>
+
+    <h2>٢. المعلومات التي نجمعها</h2>
+    <ul>
+      <li><strong>الكادر:</strong> الاسم، البريد الإلكتروني، الدور الوظيفي، وكلمة المرور المشفَّرة.</li>
+      <li><strong>سجلات الطلاب (مُدخَلة من الكادر):</strong> الاسم، تاريخ الميلاد، رقم الجوال، البريد الإلكتروني (اختياري)، مكان السكن (اختياري)، الفصل، سجلات الحضور، تقدم التحفيظ، الصورة الشخصية (اختياري).</li>
+      <li><strong>بيانات الجلسة:</strong> معلومات المصادقة الأساسية فقط — لا يوجد تتبع سلوكي.</li>
+    </ul>
+
+    <h2>٣. كيفية استخدام المعلومات</h2>
+    <ul>
+      <li>المصادقة وإدارة حسابات الكادر.</li>
+      <li>تسجيل ومتابعة حضور الطلاب وتقدمهم في التحفيظ.</li>
+      <li>منح أولياء الأمور صلاحية قراءة فقط عبر بوابة أولياء الأمور.</li>
+      <li>إرسال روابط إعادة تعيين كلمة المرور.</li>
+    </ul>
+
+    <h2>٤. تخزين البيانات وأمانها</h2>
+    <p>
+      تُخزَّن جميع البيانات على منصة <strong>Supabase</strong> (supabase.com) المُدارة بأمان.
+      نطبِّق سياسات أمان على مستوى الصف (RLS) لضمان عزل بيانات كل مؤسسة.
+      لا تُحفظ كلمات المرور بصيغة نصية صريحة، ويُقيَّد الوصول وفق الأدوار الوظيفية.
+    </p>
+
+    <h2>٥. مشاركة البيانات</h2>
+    <p>لا نبيع بياناتك ولا نشاركها مع أطراف تجارية. تُشارَك فقط مع:</p>
+    <ul>
+      <li><strong>Supabase</strong> – مزوِّد قاعدة البيانات والمصادقة.</li>
+      <li><strong>بوابة أولياء الأمور</strong> – بإذن مدير المركز فقط.</li>
+    </ul>
+    <p>لا نستخدم شبكات إعلانية أو أدوات تحليل تابعة لجهات خارجية.</p>
+
+    <h2>٦. خصوصية الأطفال</h2>
+    <p>
+      بيانات الطلاب تُدخَل وتُدار من قِبل الكادر المرخَّص نيابةً عن المؤسسة.
+      لا نجمع بيانات مباشرة من الأطفال.
+      تتحمل المؤسسة مسؤولية الحصول على موافقة أولياء الأمور المطلوبة.
+    </p>
+
+    <h2>٧. الاحتفاظ بالبيانات وحذفها</h2>
+    <p>
+      تُحتفظ بالبيانات طالما الحساب نشطاً.
+      لطلب حذف بياناتك، تواصل معنا وسنعالج طلبك خلال 30 يوماً.
+    </p>
+
+    <h2>٨. حقوقك</h2>
+    <ul>
+      <li>الاطلاع على بياناتك الشخصية.</li>
+      <li>طلب تصحيح البيانات غير الدقيقة.</li>
+      <li>طلب حذف بياناتك.</li>
+      <li>سحب موافقتك في أي وقت.</li>
+    </ul>
+
+    <h2>٩. التعديلات على هذه السياسة</h2>
+    <p>
+      قد نحدِّث هذه السياسة من وقت لآخر. يُعدُّ استمرار استخدام التطبيق بعد التعديلات قبولاً للسياسة المحدَّثة.
+    </p>
+
+    <div class="contact-box">
+      <strong>تواصل معنا:</strong><br/>
+      البريد الإلكتروني: <a href="mailto:support@markazi.app">support@markazi.app</a>
+    </div>
+  </div>
+
+  <!-- English -->
+  <div class="policy-block card" data-lang="en">
+    <p class="updated">Last updated: April 2025</p>
+    <p class="intro">
+      <strong>Markazi</strong> operates a management app for Quran memorization centers, Islamic schools, and mosques.
+      This Privacy Policy explains how we collect, use, and protect your information.
+    </p>
+
+    <h2>1. Who Uses This App</h2>
+    <p>
+      Markazi is a B2B management tool used by managers, teachers, and assistants at educational institutions.
+      It is not intended for direct use by students or minors.
+    </p>
+
+    <h2>2. Information We Collect</h2>
+    <ul>
+      <li><strong>Staff Users:</strong> Name, email address, role, and encrypted password.</li>
+      <li><strong>Student Records (entered by Staff):</strong> Name, date of birth, phone number, email (optional), home location (optional), class, attendance records, Quran memorization progress, profile photo (optional).</li>
+      <li><strong>Session Data:</strong> Basic authentication information only — no behavioral analytics.</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <ul>
+      <li>Authenticate and manage Staff User accounts.</li>
+      <li>Record and track student attendance and memorization progress.</li>
+      <li>Provide parents read-only access via the Parent Portal.</li>
+      <li>Send password reset links to registered emails.</li>
+    </ul>
+
+    <h2>4. Data Storage & Security</h2>
+    <p>
+      All data is stored on <strong>Supabase</strong> (supabase.com), a managed cloud database.
+      We implement Row-Level Security (RLS) to isolate each organization's data.
+      Passwords are never stored in plain text. Access is restricted by role-based permissions enforced at the database level.
+    </p>
+
+    <h2>5. Data Sharing</h2>
+    <p>We do not sell or share your data with commercial third parties. Data is only shared with:</p>
+    <ul>
+      <li><strong>Supabase</strong> – our database and authentication provider.</li>
+      <li><strong>Parent Portal</strong> – read-only access granted by the center manager only.</li>
+    </ul>
+    <p>We do not use third-party advertising networks or analytics SDKs.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      Student data is entered and managed by authorized staff on behalf of the institution.
+      We do not collect data directly from children.
+      Institutions are responsible for obtaining any required parental consent before entering student information.
+    </p>
+
+    <h2>7. Data Retention & Deletion</h2>
+    <p>
+      Data is retained as long as the account is active.
+      To request data deletion, contact us and we will process it within 30 days.
+    </p>
+
+    <h2>8. Your Rights</h2>
+    <ul>
+      <li>Access the personal data we hold about you.</li>
+      <li>Request correction of inaccurate data.</li>
+      <li>Request deletion of your data.</li>
+      <li>Withdraw consent at any time.</li>
+    </ul>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>
+      We may update this policy from time to time. Continued use of the app after changes constitutes acceptance of the updated policy.
+    </p>
+
+    <div class="contact-box">
+      <strong>Contact Us:</strong><br/>
+      Email: <a href="mailto:support@markazi.app">support@markazi.app</a>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  &copy; 2025 Markazi · مركزي &nbsp;|&nbsp; All rights reserved
+</footer>
+
+<script>
+  function switchLang(lang) {
+    document.querySelectorAll('.policy-block').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-tabs button').forEach(btn => btn.classList.remove('active'));
+    document.querySelector('[data-lang="' + lang + '"]').classList.add('active');
+    event.target.classList.add('active');
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+  }
+</script>
+
+</body>
+</html>
